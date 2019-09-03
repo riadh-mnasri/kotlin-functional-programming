@@ -1,11 +1,8 @@
 package com.functional.programming
 
-import org.springframework.boot.autoconfigure.SpringBootApplication
-import org.springframework.boot.runApplication
+class KotlinSampleApplication {
+    fun main(){
+        println("Hello Kotlin !")
+    }
 
-@SpringBootApplication
-class KotlinSampleApplication
-
-fun main(args: Array<String>) {
-    runApplication<KotlinSampleApplication>(*args)
 }
